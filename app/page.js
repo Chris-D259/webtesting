@@ -6,7 +6,6 @@ import Link from "next/link";
 
 export default function Page() {
   return (
-    <>
       <main className="bg-gray-200 flex justify-center items-center h-screen">
         <div className="bg-gray-200 p-4 rounded-lg">
           <h2 className="text-2xl">Welcome to Formless</h2>
@@ -17,6 +16,5 @@ export default function Page() {
           </Link>
         </div>
       </main>
-    </>
   );
 }
